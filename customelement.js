@@ -24,11 +24,11 @@ class YearElement extends HTMLElement{
 customElements.define("x-fullyear",YearElement);
 
 
-class BlueElement extends HTMLElement{
+class ShadowElement extends HTMLElement{
     connectedCallback(){
-        this.innerHTML = `<div style="color:blue">${this.innerHTML}</div>
+        this.innerHTML = `<div style="text-shadow:red 1px 1px">${this.innerHTML}</div>
         `;
     }
 }
 
-customElements.define("x-blue",BlueElement);
+customElements.define("x-shadow",ShadowElement);
