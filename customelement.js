@@ -8,7 +8,7 @@ customElements.define("x-laynol", LaynolElement);
 
 class CenterElement extends HTMLElement{
     connectedCallback(){
-        this.innerHTML = `<div style="text-align:center">${this.innerHTML}</div>
+        this.innerHTML =`<div style="text-align: center; color: black">${this.innerHTML}</div>
         `;
     }
 }
